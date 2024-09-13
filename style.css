@@ -1,0 +1,152 @@
+
+body
+{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient( blue,gray, black);
+ 
+}
+#picture
+{
+    width: 200px;
+    border-radius: 48%;
+    border: 3px solid rgb(220, 255, 149);
+}
+
+#birth
+{
+    width: 60px;
+    margin-left: 20px;
+}
+
+
+h1
+{
+    text-shadow: 4px 3px rgb(125, 205, 50);
+    font-weight: 800;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+h4
+{
+    background: rgb(220, 255, 149);
+    width: 300px;
+    justify-content: center;
+    margin: 40px auto;
+    color: black;
+    text-shadow: 2px 2px rgb(29, 16, 209);
+    border-radius: 30px;
+    padding: 10px 15px;
+
+}
+
+.par
+{
+    width: 50%;
+    font-size: x-large;
+    font-weight: 500;
+    margin: 30px auto;
+    text-shadow: 2px 2px rgb(94, 151, 189);
+}
+
+span
+{
+    color: rgb(233, 174, 64);
+    margin-left: 8px;
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+.gift-section
+{
+    margin-top: 40px;
+}
+
+.gift-img
+{
+    width: 250px;
+    border: 6px solid white;
+    border-radius: 15px;
+    height: 400px;
+    background-image: url(/image/cover\ 1.jpg);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.gift-img:hover
+{
+    background-image: url(/image/giphy\ \(1\).webp);
+}
+
+.gift-img2
+{
+    width: 250px;
+    border: 6px solid rgb(220, 255, 149);
+    border-radius: 15px;
+    height: 400px;
+    background-image: url(/image/cover11.jpg);
+    background-size: cover;
+    margin: 10px auto;
+}
+
+.gift-img2:hover
+{
+    background-image: url(/image/giphy.webp);
+}
+
+#wish
+{
+    margin-top: 56px;
+    margin-bottom: 60px;
+}
+
+h3
+{
+    color: aquamarine;
+}
+
+@media (max-width: 768px) {  /* Tablets */
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .par {
+        font-size: 1.1rem;
+    }
+
+    .gift-img, .gift-img2 {
+        max-width: 250px;  /* Adjust max width */
+    }
+}
+
+@media (max-width: 480px) { 
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #picture {
+        width: 50%;
+    }
+
+    h4 {
+        width: 90%;
+    }
+
+    .par {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    .gift-img, .gift-img2 {
+        max-width: 200px;  
+    }
+}
